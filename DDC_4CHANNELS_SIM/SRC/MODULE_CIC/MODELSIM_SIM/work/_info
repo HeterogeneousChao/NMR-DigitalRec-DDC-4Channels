@@ -1,0 +1,185 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\47968\Desktop\FPGA\FIR_IP_SIM\MODELSIM_SIM
+vCIC_COMB
+Z1 !s100 ;CDS:XXQ]6oa9C5Mf]`653
+Z2 Ia89g]9gTn2dZ;D35PXo8S2
+Z3 Vo<?GkZDeJgPHYdVe;oHP`2
+Z4 dC:\Users\47968\Desktop\FPGA\CIC_DataInValid_SIM\MODELSIM_SIM
+Z5 w1523639752
+Z6 8C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_COMB.v
+Z7 FC:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_COMB.v
+L0 9
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_COMB.v|
+Z10 o-work work -O0
+Z11 n@c@i@c_@c@o@m@b
+Z12 !s108 1523776846.180000
+Z13 !s107 C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_COMB.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCIC_COMB_SUB
+Z14 !s100 ;HbI:66n?o6@BomIFJLD31
+Z15 ImWzf]0>eMId_WRlD0_<Km3
+Z16 Vb:o7zmUVGgio6AfkQkkB>0
+R4
+Z17 w1523037159
+Z18 8C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_COMB_Sub.v
+Z19 FC:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_COMB_Sub.v
+L0 7
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_COMB_Sub.v|
+R10
+Z21 n@c@i@c_@c@o@m@b_@s@u@b
+Z22 !s108 1523776846.274000
+Z23 !s107 C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_COMB_Sub.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCIC_CTL
+Z24 !s100 _Qf97OgIOGlL:K`=FH=7R0
+Z25 IU<gXZN9@XgkEc`keiR@LN3
+Z26 VHe<UBk3IJ^hcdVO5:fQSB3
+R4
+Z27 w1523709665
+Z28 8C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_CTL.v
+Z29 FC:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_CTL.v
+L0 9
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_CTL.v|
+R10
+Z31 n@c@i@c_@c@t@l
+Z32 !s108 1523776846.383000
+Z33 !s107 C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_CTL.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCIC_DECIMATE
+Z34 !s100 L25ggUVCV9F0?5WZ1g<dS0
+Z35 IlE8VWkWc?5oobidAQ>C_g3
+Z36 VZoGF<9k5@fG_d@dKU9X[g0
+R4
+Z37 w1523727659
+Z38 8C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_DECIMATE.v
+Z39 FC:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_DECIMATE.v
+L0 9
+R8
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_DECIMATE.v|
+R10
+Z41 n@c@i@c_@d@e@c@i@m@a@t@e
+Z42 !s108 1523776846.461000
+Z43 !s107 C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_DECIMATE.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCIC_INTEGRATED
+Z44 !s100 abI?9P2gRYf8MOK:n2M4;0
+Z45 ImSN3Jk6Hlf[ogJW>jkL540
+Z46 VN>BQK:Io5nDz@7e7[P:PS0
+R4
+Z47 w1523723067
+Z48 8C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_INTEGRATED.v
+Z49 FC:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_INTEGRATED.v
+L0 9
+R8
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_INTEGRATED.v|
+R10
+Z51 n@c@i@c_@i@n@t@e@g@r@a@t@e@d
+Z52 !s108 1523776846.570000
+Z53 !s107 C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_INTEGRATED.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCIC_INTEGRATED_SUB
+Z54 !s100 Xk]jP0H>nL]_=81Qh2dbR0
+Z55 IkajM2d:;_J>Sm38UPh9nB1
+Z56 VbnZ@k2fHEFRT??]0BFW_j0
+R4
+Z57 w1523724540
+Z58 8C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_INTEGRATED_Sub.v
+Z59 FC:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_INTEGRATED_Sub.v
+L0 7
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_INTEGRATED_Sub.v|
+R10
+Z61 n@c@i@c_@i@n@t@e@g@r@a@t@e@d_@s@u@b
+Z62 !s108 1523776846.648000
+Z63 !s107 C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_INTEGRATED_Sub.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCIC_OUT_SCALE
+Z64 !s100 Nk:LlZdgiV0[P=Oizg6TF0
+Z65 IAQiHJ=m>Dc@8fP;A4VoAA3
+Z66 VBTJBkiK:D_LBk2PN4S]OX0
+R4
+Z67 w1523776450
+Z68 8C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_OUT_SCALE.v
+Z69 FC:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_OUT_SCALE.v
+L0 9
+R8
+r1
+31
+Z70 !s90 -reportprogress|300|-work|work|C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_OUT_SCALE.v|
+R10
+Z71 n@c@i@c_@o@u@t_@s@c@a@l@e
+Z72 !s108 1523776846.742000
+Z73 !s107 C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/CIC_OUT_SCALE.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMODULE_CIC
+Z74 !s100 ebF`HHcbec1[4c=NFg`_j3
+Z75 I`znKEBQW=W1a[SdJOkzU<1
+Z76 V1_c89h`1bI53>RSH@]hPz2
+R4
+Z77 w1523709520
+Z78 8C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/MODULE_CIC.v
+Z79 FC:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/MODULE_CIC.v
+L0 9
+R8
+r1
+31
+Z80 !s90 -reportprogress|300|-work|work|C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/MODULE_CIC.v|
+R10
+Z81 n@m@o@d@u@l@e_@c@i@c
+!i10b 1
+!s85 0
+Z82 !s108 1523776846.835000
+Z83 !s107 C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/MODULE_CIC.v|
+!s101 -O0
+vMODULE_CIC_vlg_tst
+!i10b 1
+!s100 cjKFBc0;E1RJ`okIA8<lX2
+IMkX>Z9lX6zn?_ogaHW_Z52
+VSLd`E=iKY=0Zn;P=YDR;=1
+R4
+w1523776829
+Z84 8C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/MODULE_CIC.vt
+Z85 FC:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/MODULE_CIC.vt
+L0 28
+R8
+r1
+!s85 0
+31
+!s108 1523776846.929000
+!s107 C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/MODULE_CIC.vt|
+Z86 !s90 -reportprogress|300|-work|work|C:/Users/47968/Desktop/FPGA/CIC_DataInValid_SIM/SRC/MODULE_CIC.vt|
+!s101 -O0
+R10
+Z87 n@m@o@d@u@l@e_@c@i@c_vlg_tst
