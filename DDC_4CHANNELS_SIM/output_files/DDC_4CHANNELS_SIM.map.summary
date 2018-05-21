@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sun May 20 22:39:39 2018
+Quartus II 64-Bit Version : 13.1.4 Build 182 03/12/2014 SJ Full Version
+Revision Name : DDC_4CHANNELS_SIM
+Top-level Entity Name : FIR_FUN
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 15034
+Total pins : 87
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 32
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 0
+Total DLLs : 0
