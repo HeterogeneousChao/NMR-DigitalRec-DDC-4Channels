@@ -1,0 +1,24 @@
+Synopsys Altera Technology Pre-mapping, Version maprc, Build 2614R, Built Feb 27 2015 17:50:22
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@L: C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN_scck.rpt 
+Printing clock  summary report in "C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN_scck.rpt" file 
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 1486MB peak: 2849MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 1486MB peak: 2849MB)
+
+@W: FA407 |Environment variable QUARTUS_ROOTDIR set to E:\altera\15.0\quartus which is not a directory. Cannot determine PAR version.
+@N: FA351 |Clearbox flow is not supported because E:\altera\15.0\quartus\bin\clearbox.exe does not exist
+@W: FA352 |Not using the Clearbox flow might affect timing correlation and Quality of Results (QoR).
+
+Finished Clear Box Flow. (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:19s; Memory used current: 1497MB peak: 2849MB)
+

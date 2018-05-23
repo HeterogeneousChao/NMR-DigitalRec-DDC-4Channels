@@ -38,53 +38,10 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CGXFC9D6F27C7
-set_global_assignment -name TOP_LEVEL_ENTITY MODULE_DDC_4CHANNELS
+set_global_assignment -name TOP_LEVEL_ENTITY FIR_FUN
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:28:12  MAY 17, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 13.1
-set_global_assignment -name VERILOG_FILE SRC/MODULE_CIC/SRC/MODULE_CIC.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_CIC/SRC/CIC_OUT_SCALE.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_CIC/SRC/CIC_INTEGRATED_Sub.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_CIC/SRC/CIC_INTEGRATED.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_CIC/SRC/CIC_DECIMATE.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_CIC/SRC/CIC_CTL.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_CIC/SRC/CIC_COMB_Sub.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_CIC/SRC/CIC_COMB.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_CIC_CICC/MODULE_CIC_CICC.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_CIC_CICC/CIC_CICC_CTL.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_DDC_1CHANNEL/MODULE_DDC_1CHANNEL.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_DDC_1CHANNEL/DDC_CHANNEL_FILTERS_CTL.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_DDC_1CHANNEL/DDC_CHANNEL_FILTERS.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_DDC_1CHANNEL/DDC_CHANNEL_CTL.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_DDC_CHANNEL_MUX_FILTERS/MODULE_DDC_CHANNEL_MUX_FILTERS.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_DDC_CHANNEL_MUX_FILTERS/DDC_CHANNEL_MUX_FILTERS_CTL.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_DFIR/MODULE_DFIR.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_DFIR/DFIR_DECIMATE.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_DFIR/DFIR_CTL.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_FIR/SRC/MODULE_FIR.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_FIR/SRC/FIR_OUT_SCALE.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_FIR/SRC/FIR_FUN.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_FIR/SRC/FIR_CTL.v
-set_global_assignment -name QIP_FILE SRC/MODULE_MHBF/SRC/MULT_24BIT25BIT49BIT_IP/MULT_24BIT25BIT49BIT_IP.qip
-set_global_assignment -name VERILOG_FILE SRC/MODULE_MHBF/SRC/MODULE_MMBF.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_MHBF/SRC/MODULE_MBF.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_MHBF/SRC/MMBF_CTL.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_MHBF/SRC/MBF_FIR_OUT_SCALE.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_MHBF/SRC/MBF_FIR.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_MHBF/SRC/MBF_DECIMATE.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_MHBF/SRC/MBF_CTL.v
-set_global_assignment -name QIP_FILE SRC/MODULE_MUX/FIFO_24BIT16WS_IP/FIFO_24BIT16WS_IP.qip
-set_global_assignment -name VERILOG_FILE SRC/MODULE_MUX/MODULE_MUX_SP.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_MUX/MODULE_MUX_PS.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_MUX/MODULE_MUX_CLK_ADJ.v
-set_global_assignment -name QIP_FILE SRC/MODULE_NCO/SRC/NCO_ROM_IP/NCO_SIN_ROM_2P_IP.qip
-set_global_assignment -name QIP_FILE SRC/MODULE_NCO/SRC/NCO_SIN_ROM_2P_IP.qip
-set_global_assignment -name VERILOG_FILE SRC/MODULE_NCO/SRC/NCO_INIT_CONFIG.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_NCO/SRC/NCO_FUN.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_NCO/SRC/MODULE_NCO.v
-set_global_assignment -name QIP_FILE SRC/MODULE_QUAD_MIXER/SRC/LPM_MULT_IP/LPM_MULT_IP.qip
-set_global_assignment -name VERILOG_FILE SRC/MODULE_QUAD_MIXER/SRC/MODULE_QUAD_MIXER.v
-set_global_assignment -name VERILOG_FILE SRC/MODULE_DDC_4CHANNELS.v
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
@@ -93,6 +50,10 @@ set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name QIP_FILE SRC/MODULE_FIR/SRC/MULT_24BIT25BIT49BIT_IP/MULT_24BIT25BIT49BIT_IP.qip
+set_global_assignment -name VERILOG_FILE SRC/MODULE_FIR/SRC/FIR_FUN.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

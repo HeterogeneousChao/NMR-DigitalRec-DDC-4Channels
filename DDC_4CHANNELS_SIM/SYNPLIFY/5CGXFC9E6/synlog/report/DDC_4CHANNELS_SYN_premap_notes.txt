@@ -1,0 +1,5 @@
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: FA351 |Clearbox flow is not supported because E:\altera\15.0\quartus\bin\clearbox.exe does not exist

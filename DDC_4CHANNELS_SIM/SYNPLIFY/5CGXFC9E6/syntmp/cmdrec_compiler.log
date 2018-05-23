@@ -1,0 +1,17 @@
+E:\Synopsys\fpga_J-2015.03\bin64\c_hdl.exe  -osyn  C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\synwork\DDC_4CHANNELS_SYN_comp.srs  -hdllog  C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\synlog\DDC_4CHANNELS_SYN_compiler.srr  -encrypt  -mp  1  -verilog  -prodtype  synplify_pro  -pqdpadd -verification_mode 0 -infer_seqShift -primux -fixsmult -dspmac -nram -divnmod -nostructver   -I C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\  -I E:\Synopsys\fpga_J-2015.03\lib   -sysv  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\altera.v  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\altera_mult_add.v  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\cyclonev.v  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_lpm.v  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_primitives.v  -encrypt  -pro  -dmgen  C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\dm  -ui -fid2 -ram -sharing off -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\MODULE_FIR.v -lib work C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_CTL.v -lib work C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_OUT_SCALE.v -lib work C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_FUN.v -lib work C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\module_fir\SRC\mult_24bit25bit49bit_ip\MULT_24BIT25BIT49BIT_IP_bb.v 
+rc:0 success:1
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\synwork\DDC_4CHANNELS_SYN_comp.srs|o|1527000734|12021920
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\synlog\DDC_4CHANNELS_SYN_compiler.srr|o|1527082311|13357
+E:\Synopsys\fpga_J-2015.03\lib\altera\altera.v|i|1424800916|799
+E:\Synopsys\fpga_J-2015.03\lib\altera\altera_mult_add.v|i|1424800916|117641
+E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\cyclonev.v|i|1424800928|135
+E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v|i|1424800926|2601469
+E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_lpm.v|i|1424800926|14860
+E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_primitives.v|i|1424800928|32799
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\MODULE_FIR.v|i|1525630947|4618
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_CTL.v|i|1526941979|3875
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_OUT_SCALE.v|i|1526942285|4390
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_FUN.v|i|1526994041|11018
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\module_fir\SRC\mult_24bit25bit49bit_ip\MULT_24BIT25BIT49BIT_IP_bb.v|i|1523556114|4207
+E:\Synopsys\fpga_J-2015.03\bin\c_hdl.exe|i|1424805534|1296896
+E:\Synopsys\fpga_J-2015.03\bin64\c_hdl.exe|i|1424805730|1899520

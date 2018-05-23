@@ -1,0 +1,18 @@
+# Synopsys Constraint Checker(syntax only), version maprc, Build 2614R, built Feb 27 2015
+# Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+# Written on Wed May 23 21:32:11 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "MODULE_FIR"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+

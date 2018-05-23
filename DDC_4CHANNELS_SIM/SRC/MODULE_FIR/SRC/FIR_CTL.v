@@ -130,8 +130,8 @@ module FIR_CTL(
 					// NULL
 					state_idx_reg <= 4'd0;
 			endcase
-	
-	
+			
+			
 	assign isConfigFIR_Out    = risConfigFIR_Out;
 	assign Data_ConfigFIR_Out = rData_ConfigFIR_Out;
 	

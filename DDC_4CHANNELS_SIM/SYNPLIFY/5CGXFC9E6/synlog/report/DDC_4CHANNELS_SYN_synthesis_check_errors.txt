@@ -1,0 +1,2 @@
+@E: CS153 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_FUN.v":286:12:286:30|Can't mix blocking and non-blocking assignments to a variable
+

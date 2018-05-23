@@ -1,0 +1,16 @@
+E:\Synopsys\fpga_J-2015.03\bin64\m_altera.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6   -part 5CGXFC9E6FC31-7    -maxfan 30 -verification_mode 0 -pipe -retiming -fixgatedclocks 1 -fixgeneratedclocks 1 -syn_altera_model on -mif_files_dirs " " -validate_mif_files -reporting_ctd 0 -RWCheckOnRam 1 -overilog "DDC_4CHANNELS_SYN.vm" -summaryfile C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\synlog\report\DDC_4CHANNELS_SYN_fsm_explorer_job.xml  -map  -vqm41  -ovqm  C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN.vqm   -autoconstraint  -freq 1.000   C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN.srs  -fsm_explorer  C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN_fsm.sdc  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\altera.v  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\altera_mult_add.v  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\cyclonev.v  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_lpm.v  -devicelib  E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_primitives.v  -ologparam  C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\syntmp\DDC_4CHANNELS_SYN.plg  -osyn  C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN.srm  -prjdir  C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\  -prjname  DDC_4CHANNELS_SYN  -log  C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN.srr 
+rc:0 success:1
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN.vqm|o|0|0
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN.srs|i|1527000789|7659
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN_fsm.sdc|o|0|0
+E:\Synopsys\fpga_J-2015.03\lib\altera\altera.v|i|1424800916|799
+E:\Synopsys\fpga_J-2015.03\lib\altera\altera_mult_add.v|i|1424800916|117641
+E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\cyclonev.v|i|1424800928|135
+E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v|i|1424800926|2601469
+E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_lpm.v|i|1424800926|14860
+E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_primitives.v|i|1424800928|32799
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\syntmp\DDC_4CHANNELS_SYN.plg|o|0|0
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN.srm|o|0|0
+C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\DDC_4CHANNELS_SYN.srr|o|1527000789|14528
+E:\Synopsys\fpga_J-2015.03\bin\m_altera.exe|i|1425086830|11922432
+E:\Synopsys\fpga_J-2015.03\bin64\m_altera.exe|i|1425088282|14921216

@@ -1,0 +1,72 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03
+#--  Project file C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\run_options.txt
+#--  Written on Wed May 23 21:31:28 2018
+
+
+#project files
+add_file -verilog "../SRC/MODULE_FIR/SRC/MODULE_FIR.v"
+add_file -verilog "../SRC/MODULE_FIR/SRC/FIR_CTL.v"
+add_file -verilog "../SRC/MODULE_FIR/SRC/FIR_OUT_SCALE.v"
+add_file -verilog "../SRC/MODULE_FIR/SRC/FIR_FUN.v"
+add_file -verilog "../SRC/module_fir/SRC/mult_24bit25bit49bit_ip/MULT_24BIT25BIT49BIT_IP_bb.v"
+
+
+
+#implementation: "5CGXFC9E6"
+impl -add 5CGXFC9E6 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -project_relative_includes 1
+
+#device options
+set_option -technology CYCLONEV
+set_option -part 5CGXFC9E6
+set_option -package FC31
+set_option -speed_grade -7
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+
+# altera_options
+set_option -automatic_compile_point 1
+set_option -rw_check_on_ram 1
+
+# mapper_options
+set_option -frequency auto
+set_option -write_verilog 1
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# Altera STRATIX
+set_option -run_prop_extract 1
+set_option -maxfan 30
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -update_models_cp 0
+set_option -retiming 1
+set_option -no_sequential_opt 0
+set_option -fix_gated_and_generated_clocks 1
+set_option -quartus_version 14.1
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 0
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "5CGXFC9E6/DDC_4CHANNELS_SYN.vqm"
+impl -active "5CGXFC9E6"

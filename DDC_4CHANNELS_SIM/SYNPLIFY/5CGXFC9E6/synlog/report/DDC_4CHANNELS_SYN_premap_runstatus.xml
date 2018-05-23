@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the job information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<job_run_status name="Mapper">
+<report_link name="Detailed report">
+<data>C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\synlog\DDC_4CHANNELS_SYN_premap.srr</data>
+<title>Synopsys Altera Technology Pre-mapping</title>
+</report_link>
+<job_status>
+<data>Running</data>
+</job_status>
+<job_info>
+<info name="Notes">
+<data>5</data>
+<report_link name="more">
+<data>C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\synlog\report\DDC_4CHANNELS_SYN_premap_notes.txt</data>
+</report_link>
+</info>
+<info name="Warnings">
+<data>2</data>
+<report_link name="more">
+<data>C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\synlog\report\DDC_4CHANNELS_SYN_premap_warnings.txt</data>
+</report_link>
+</info>
+<info name="Errors">
+<data>0</data>
+<report_link name="more">
+<data>C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\synlog\report\DDC_4CHANNELS_SYN_premap_errors.txt</data>
+</report_link>
+</info>
+<info name="CPU Time">
+<data>0h:00m:19s</data>
+</info>
+<info name="Real Time">
+<data>0h:00m:21s</data>
+</info>
+<info name="Peak Memory">
+<data>2849MB</data>
+</info>
+<info name="Date &amp; Time">
+<data type="timestamp">1527082333</data>
+</info>
+</job_info>
+</job_run_status>

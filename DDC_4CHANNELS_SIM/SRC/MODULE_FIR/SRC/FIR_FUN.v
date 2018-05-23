@@ -87,7 +87,7 @@ module FIR_FUN (
 				
 				for (ridx_c = 0; ridx_c < (FILTER_MAX_ORDER+2); ridx_c = ridx_c + 1)
 					begin
-						Coeff_Reg[ridx_c] = {COEFF_WIDTH{1'b0}};
+						Coeff_Reg[ridx_c] <= {COEFF_WIDTH{1'b0}};
 					end
 			end
 		else
@@ -156,7 +156,7 @@ module FIR_FUN (
 				curInChannelIdx_reg <= 4'd0;
 				for (ridx_a = 0; ridx_a < (DATA_REG_NUM+1); ridx_a = ridx_a + 1)
 					begin
-						Data_In_Reg[ridx_a] = {INPUT_WIDTH{1'b0}};		
+						Data_In_Reg[ridx_a] <= {INPUT_WIDTH{1'b0}};		
 					end
 			end
 		else
@@ -235,7 +235,7 @@ module FIR_FUN (
 			begin
 				for (ridx_d = 0; ridx_d < FIR_MAX_CHANNELS; ridx_d = ridx_d + 1)
 					begin
-						Sum_reg[ridx_d] = {ADDER_OUTPUT_WIDTH{1'b0}};
+						Sum_reg[ridx_d] <= {ADDER_OUTPUT_WIDTH{1'b0}};
 					end
 				for (ridx_b = 0; ridx_b < FILTER_MULTER_NUM; ridx_b = ridx_b+1)
 					begin
@@ -248,7 +248,6 @@ module FIR_FUN (
 				
 				isDataInLast_reg <= 1'b1;
 				idx_mult_cnt     <= 8'd0;
-				idx_remain_mult_cnt <= 8'd0;
 				rData_Out_Valid <= 1'b0;
 				mult_state_idx_reg <= 3'd0;
 				
@@ -263,7 +262,7 @@ module FIR_FUN (
 								Mult_Adder_Reg[ridx_b] <= {(INPUT_WIDTH+1){1'b0}};
 								Mult_Coeff_Reg[ridx_b] <= {COEFF_WIDTH{1'b0}};
 							end
-						Sum_reg[curInChannelIdx_reg] = {ADDER_OUTPUT_WIDTH{1'b0}};
+						Sum_reg[curInChannelIdx_reg] <= {ADDER_OUTPUT_WIDTH{1'b0}};
 						
 						if (state_idx_reg == 4'd4)
 							begin
@@ -280,10 +279,9 @@ module FIR_FUN (
 							idx_mult_cnt <= 8'd0;
 							for (ridx_b = 0; ridx_b < FILTER_MULTER_NUM; ridx_b = ridx_b+1)
 								begin
-									Sum_reg[curInChannelIdx_reg] = Sum_reg[curInChannelIdx_reg] + wMult_Out[ridx_b];
+									Sum_reg[curInChannelIdx_reg] <= Sum_reg[curInChannelIdx_reg] + wMult_Out[ridx_b];
 								end
-								
-							for (idx_remain_mult_cnt = 0; idx_remain_mult_cnt < MULT_REMAIN_ITERATION_NUM; idx_remain_mult_cnt = idx_remain_mult_cnt + 1)
+							for (idx_remain_mult_cnt = 0; idx_remain_mult_cnt < MULT_REMAIN_ITERATION_NUM; idx_remain_mult_cnt = idx_remain_mult_cnt+1)
 								begin
 									Mult_Adder_Reg[idx_remain_mult_cnt] <= Adder_Reg[((FILTER_MAX_ORDER_HALF+1)*curInChannelIdx_reg)+(MULT_ITERATION_NUM*FILTER_MULTER_NUM)+idx_remain_mult_cnt];
 									Mult_Coeff_Reg[idx_remain_mult_cnt] <= Coeff_Reg[(MULT_ITERATION_NUM*FILTER_MULTER_NUM)+idx_remain_mult_cnt];
@@ -298,7 +296,7 @@ module FIR_FUN (
 									Mult_Coeff_Reg[ridx_b] <= Coeff_Reg[((idx_mult_cnt)*FILTER_MULTER_NUM) + ridx_b];
 									if (idx_mult_cnt > 1)
 										begin
-											Sum_reg[curInChannelIdx_reg] = Sum_reg[curInChannelIdx_reg] + wMult_Out[ridx_b];
+											Sum_reg[curInChannelIdx_reg] <= Sum_reg[curInChannelIdx_reg] + wMult_Out[ridx_b];
 										end
 									idx_mult_cnt <= idx_mult_cnt + 1;
 								end
@@ -307,15 +305,15 @@ module FIR_FUN (
 					begin
 						for (ridx_b = 0; ridx_b < FILTER_MULTER_NUM; ridx_b = ridx_b+1)
 							begin
-								Sum_reg[curInChannelIdx_reg] = Sum_reg[curInChannelIdx_reg] + wMult_Out[ridx_b];
+								Sum_reg[curInChannelIdx_reg] <= Sum_reg[curInChannelIdx_reg] + wMult_Out[ridx_b];
 							end
 						mult_state_idx_reg <= mult_state_idx_reg + 1;
 					end
 				3'd3:
 					begin
-						for (idx_remain_mult_cnt = 0; idx_remain_mult_cnt < MULT_REMAIN_ITERATION_NUM; idx_remain_mult_cnt = idx_remain_mult_cnt + 1)
+						for (idx_remain_mult_cnt = 0; idx_remain_mult_cnt < MULT_REMAIN_ITERATION_NUM; idx_remain_mult_cnt = idx_remain_mult_cnt+1)
 							begin
-								Sum_reg[curInChannelIdx_reg] = Sum_reg[curInChannelIdx_reg] + wMult_Out[idx_remain_mult_cnt];
+								Sum_reg[curInChannelIdx_reg] <= Sum_reg[curInChannelIdx_reg] + wMult_Out[idx_remain_mult_cnt];
 							end
 						rData_Out_ChIdx <= curInChannelIdx_reg;
 						Data_Out_reg <= Sum_reg[curInChannelIdx_reg];
@@ -324,7 +322,9 @@ module FIR_FUN (
 					end
 					
 				default:
-					mult_state_idx_reg <= 3'd0;		
+					begin
+						mult_state_idx_reg <= 3'd0;	
+					end	
 			endcase
 			
 	// align data out and dataout valid;

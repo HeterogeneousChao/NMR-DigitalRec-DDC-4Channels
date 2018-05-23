@@ -1,0 +1,11 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03
+#--  Project file C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\DDC_4CHANNELS_SYN.prd
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

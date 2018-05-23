@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- 
+  Synopsys, Inc.
+  Version J-2015.03
+  Project file C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SYNPLIFY\5CGXFC9E6\syntmp\run_option.xml
+  Written on Wed May 23 21:31:28 2018
+
+
+--> 
+<project_attribute_list name="Project Settings"> 
+     <option name="project_name" display_name="Project Name">DDC_4CHANNELS_SYN</option>
+     <option name="impl_name" display_name="Implementation Name">5CGXFC9E6</option>
+     <option name="top_module" display_name="Top Module"></option>
+     <option name="pipe" display_name="Pipelining">1</option>
+     <option name="retiming" display_name="Retiming">1</option>
+     <option name="resource_sharing" display_name="Resource Sharing">0</option>
+     <option name="maxfan" display_name="Fanout Guide">30</option>
+     <option name="disable_io_insertion" display_name="Disable I/O Insertion">0</option>
+     <option name="no_sequential_opt" display_name="Disable Sequential Optimizations">0</option>
+     <option name="fix_gated_and_generated_clocks" display_name="Clock Conversion">1</option>
+     <option name="symbolic_fsm_compiler" display_name="FSM Compiler">1</option>
+</project_attribute_list>
+

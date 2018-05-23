@@ -55,7 +55,6 @@ module FIR_OUT_SCALE (
 	
 	reg  [FIR_CONFIG_DATA_WIDTH-1:0]FIR_Config_reg;  // initial value : 0x00...00111;
 	
-	reg  rData_Out_Valid;
 	reg  signed [MIDDLE_WIDTH-1:0] rData_Out;
 	
 	always @(posedge CLK or negedge nRST)
@@ -184,7 +183,6 @@ module FIR_OUT_SCALE (
 			
 	assign Data_Out_Valid = ((idx_doutV_cnt == FIR_SCALE_DATA_OUT_VALID_SHIFT) ? 
 								Data_In_Valid : {1'b0});
-	// assign Data_Out_Valid = rData_Out_Valid;
 	assign Data_Out = rData_Out[MIDDLE_WIDTH-1:(MIDDLE_WIDTH-OUTPUT_WIDTH)];
 	assign Data_Out_ChIdx = rData_Out_ChIdx;
 

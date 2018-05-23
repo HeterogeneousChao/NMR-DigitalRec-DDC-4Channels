@@ -1,0 +1,80 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52026:16:52026:28|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52076:16:52076:27|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52085:16:52085:28|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52099:16:52099:27|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52246:20:52246:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52251:20:52251:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52254:20:52254:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52257:20:52257:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52371:20:52371:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52376:20:52376:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52379:20:52379:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52382:20:52382:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52471:20:52471:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52476:20:52476:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52479:20:52479:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52482:20:52482:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52570:20:52570:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52575:20:52575:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52578:20:52578:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52581:20:52581:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52667:20:52667:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52672:20:52672:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52675:20:52675:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52678:20:52678:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52886:12:52886:24|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52900:12:52900:23|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":53165:12:53165:24|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":53179:12:53179:23|Read directive translate_on 
+@N: CG364 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_FUN.v":11:7:11:13|Synthesizing module FIR_FUN
+@N: CG364 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\module_fir\SRC\mult_24bit25bit49bit_ip\MULT_24BIT25BIT49BIT_IP_bb.v":34:7:34:29|Synthesizing module MULT_24BIT25BIT49BIT_IP
+@N: CG364 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_OUT_SCALE.v":13:7:13:19|Synthesizing module FIR_OUT_SCALE
+@N: CG364 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_CTL.v":9:7:9:13|Synthesizing module FIR_CTL
+@N: CG364 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\MODULE_FIR.v":12:7:12:16|Synthesizing module MODULE_FIR
+@N: CL201 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_CTL.v":66:1:66:6|Trying to extract state machine for register state_idx_reg
+@N: CL201 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_OUT_SCALE.v":109:1:109:6|Trying to extract state machine for register out_idx_reg
+@N: CL201 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_OUT_SCALE.v":60:1:60:6|Trying to extract state machine for register state_idx_reg
+@N: CL201 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_FUN.v":233:1:233:6|Trying to extract state machine for register mult_state_idx_reg
+@N: CL201 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_FUN.v":80:1:80:6|Trying to extract state machine for register state_idx_reg
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52026:16:52026:28|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52076:16:52076:27|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52085:16:52085:28|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52099:16:52099:27|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52246:20:52246:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52251:20:52251:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52254:20:52254:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52257:20:52257:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52371:20:52371:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52376:20:52376:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52379:20:52379:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52382:20:52382:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52471:20:52471:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52476:20:52476:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52479:20:52479:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52482:20:52482:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52570:20:52570:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52575:20:52575:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52578:20:52578:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52581:20:52581:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52667:20:52667:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52672:20:52672:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52675:20:52675:32|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52678:20:52678:31|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52886:12:52886:24|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":52900:12:52900:23|Read directive translate_on 
+@N: CG334 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":53165:12:53165:24|Read directive translate_off 
+@N: CG333 :"E:\Synopsys\fpga_J-2015.03\lib\altera\quartus_II141\altera_mf.v":53179:12:53179:23|Read directive translate_on 
+@N: CG364 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_FUN.v":11:7:11:13|Synthesizing module FIR_FUN
+@N: CG364 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\module_fir\SRC\mult_24bit25bit49bit_ip\MULT_24BIT25BIT49BIT_IP_bb.v":34:7:34:29|Synthesizing module MULT_24BIT25BIT49BIT_IP
+@N: CG364 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_OUT_SCALE.v":13:7:13:19|Synthesizing module FIR_OUT_SCALE
+@N: CG364 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\FIR_CTL.v":9:7:9:13|Synthesizing module FIR_CTL
+@N: CG364 :"C:\Users\47968\Desktop\FPGA\DDC_4CHANNELS\DDC_4CHANNELS_SIM\SRC\MODULE_FIR\SRC\MODULE_FIR.v":12:7:12:16|Synthesizing module MODULE_FIR
+
